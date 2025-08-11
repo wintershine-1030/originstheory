@@ -57280,7 +57280,7 @@ Class((function CleanRoom(_params, ...restArgs) {
       _this.layers.camera.lock();
       GLA11y.registerPage(_this.scene, "CleanRoomPage"),
       GLA11y.textNode(_this.layers.text.group, _this.layers.text.text.text.string);
-      let url = "https://atlab.io";
+      let url = "https://atlab-six.vercel.app";
       async function updateLayout() {
           Device.mobile && Stage.height > Stage.width ? (_this.layers.text.group.position.x = .2,
           _this.layers.text.group.position.y = .9,
