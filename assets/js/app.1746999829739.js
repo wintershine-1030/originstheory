@@ -81220,13 +81220,13 @@ class SkinAnimation {
               animated: !0,
               delay: 600,
             }),
-            caseStudyURL &&
-              _this.set("ChatDOM/updateLink", {
-                title: "Medium Case Study",
-                href: caseStudyURL,
-                animated: !0,
-                delay: 800,
-              }),
+            // caseStudyURL &&
+            //   _this.set("ChatDOM/updateLink", {
+            //     title: "Medium Case Study",
+            //     href: caseStudyURL,
+            //     animated: !0,
+            //     delay: 800,
+            //   }),
             projectURL &&
               _this.set("ChatDOM/updateLink", {
                 title: "Project Link",
