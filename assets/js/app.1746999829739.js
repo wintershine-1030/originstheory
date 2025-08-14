@@ -66110,7 +66110,7 @@ Class((function Work(_params, ...restArgs) {
       (Device.mobile?.phone || .9 * Stage.width < Stage.height) && (_this.layers.camera.setFOV(55),
       _this.layers.flower.group.scale.y *= 1.2),
       GLA11y.registerPage(_this.scene, "WorkPage");
-      let video = _this.createFragment(VideoTexture, "https://storage.googleapis.com/activetheory-v6.appspot.com/media/prometheus (720p).mp4", {
+      let video = _this.createFragment(VideoTexture, "https://originstheory.vercel.app/assets/video/prometheus (720p).mp4", {
           preload: !1
       });
       _this.set("video", video),
