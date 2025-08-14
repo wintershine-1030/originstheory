@@ -15922,7 +15922,7 @@ Class(function AppStateOperators(_default) {
             continue;
           }
           const data = await get(
-            `https://originstheory-backend.vercel.app/cms/${key}-${dataVersion}.json?v=CMS_DATA_${Date.now()}`
+            `https://originstheory-backend.vercel.app/api/cms/${key}-${dataVersion}.json?v=CMS_DATA_${Date.now()}`
           ).catch((e) => console.log(e));
           if (data)
             if ("projects" === key) {
