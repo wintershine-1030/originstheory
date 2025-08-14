@@ -80500,11 +80500,11 @@ class SkinAnimation {
           _this.scroll.scrollTo(_this.work, 1e3);
         }),
         _this.bind("navigate", (path) => _this.navigate(path)),
-        (document.title = "Active Theory · Creative Digital Experiences"),
+        (document.title = "Origins Theory · Creative Digital Experiences"),
         _this.bind("Work/project", (data) => {
           document.title = data
-            ? `${data.title} · Active Theory`
-            : "Active Theory · Creative Digital Experiences";
+            ? `${data.title} · Origins Theory`
+            : "Origins Theory · Creative Digital Experiences";
         });
       for (let key in _this)
         if (_this[key]?.then) {
