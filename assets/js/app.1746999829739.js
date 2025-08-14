@@ -81227,13 +81227,13 @@ class SkinAnimation {
             //     animated: !0,
             //     delay: 800,
             //   }),
-            projectURL &&
-              _this.set("ChatDOM/updateLink", {
-                title: "Project Link",
-                href: projectURL,
-                animated: !0,
-                delay: 900,
-              }),
+            // projectURL &&
+            //   _this.set("ChatDOM/updateLink", {
+            //     title: "Project Link",
+            //     href: projectURL,
+            //     animated: !0,
+            //     delay: 900,
+            //   }),
             _this.set("ChatDOM/updateFilter", {
               title: "<- Close",
               tag: null,
