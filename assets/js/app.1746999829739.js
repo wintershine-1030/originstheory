@@ -69666,18 +69666,18 @@ class SkinAnimation {
           elem.appendChild(text),
             (elem.style.color = "#cccccc"),
             _this.messages.div.prepend(elem);
-          let link = document.createElement("a");
-          (link.text = "Privacy Policy."),
-            link.setAttribute("title", "Privacy Policy."),
-            link.setAttribute(
-              "href",
-              "https://activetheory.notion.site/Active-Theory-Privacy-Notice-dc343e6976e24c5e866be0ee64bf99eb"
-            ),
-            link.setAttribute("target", "_blank"),
-            (link.style.marginLeft = "0"),
-            elem.appendChild(link),
-            (text.textContent = ""),
-            (text.progress = 0.95);
+          //   let link = document.createElement("a");
+          //   (link.text = "Privacy Policy."),
+          //     link.setAttribute("title", "Privacy Policy."),
+          //     link.setAttribute(
+          //       "href",
+          //       "https://activetheory.notion.site/Active-Theory-Privacy-Notice-dc343e6976e24c5e866be0ee64bf99eb"
+          //     ),
+          //     link.setAttribute("target", "_blank"),
+          //     (link.style.marginLeft = "0"),
+          //     elem.appendChild(link),
+          //     (text.textContent = ""),
+          //     (text.progress = 0.95);
           let duration = Math.clamp(172, 500, 1500),
             setNodeText = (_) => {
               let substr = disclaimer.slice(0, 61 * (1 - text.progress));
@@ -71184,21 +71184,21 @@ class SkinAnimation {
         _this.layout?.getAllLayers &&
           (_this.layers = await _this.layout.getAllLayers()),
         (function initText() {
-          let title = "Privacy Notice.",
-            text = document.createTextNode(
-              "Our site uses essential cookies and, with your consent, analytics cookies. Details in "
-            ),
-            link = document.createElement("a");
-          (link.text = title),
-            link.setAttribute("title", title),
-            link.setAttribute("ariaLabel", title),
-            link.setAttribute(
-              "href",
-              "https://activetheory.notion.site/Active-Theory-Privacy-Notice-dc343e6976e24c5e866be0ee64bf99eb#f5782d13e1ac43cc96dfa95e33521fe0"
-            ),
-            link.setAttribute("target", "_blank"),
-            _this.text.div.appendChild(text),
-            _this.text.div.appendChild(link);
+          //   let title = "Privacy Notice.",
+          //     text = document.createTextNode(
+          //       "Our site uses essential cookies and, with your consent, analytics cookies. Details in "
+          //     ),
+          //     link = document.createElement("a");
+          //   (link.text = title),
+          //     link.setAttribute("title", title),
+          //     link.setAttribute("ariaLabel", title),
+          //     link.setAttribute(
+          //       "href",
+          //       "https://activetheory.notion.site/Active-Theory-Privacy-Notice-dc343e6976e24c5e866be0ee64bf99eb#f5782d13e1ac43cc96dfa95e33521fe0"
+          //     ),
+          //     link.setAttribute("target", "_blank"),
+          //     _this.text.div.appendChild(text),
+          //     _this.text.div.appendChild(link);
         })(),
         (_this.cookiesAccept = (_) => {
           CookieNotice.accept(), _this.set("showCookies", !1);
