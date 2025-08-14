@@ -69666,18 +69666,18 @@ class SkinAnimation {
           elem.appendChild(text),
             (elem.style.color = "#cccccc"),
             _this.messages.div.prepend(elem);
-          //   let link = document.createElement("a");
-          //   (link.text = "Privacy Policy."),
-          //     link.setAttribute("title", "Privacy Policy."),
-          //     link.setAttribute(
-          //       "href",
-          //       "https://activetheory.notion.site/Active-Theory-Privacy-Notice-dc343e6976e24c5e866be0ee64bf99eb"
-          //     ),
-          //     link.setAttribute("target", "_blank"),
-          //     (link.style.marginLeft = "0"),
-          //     elem.appendChild(link),
-          //     (text.textContent = ""),
-          //     (text.progress = 0.95);
+          let link = document.createElement("a");
+          (link.text = "Terms and Conditions."),
+            link.setAttribute("title", "Terms and Conditions"),
+            //   link.setAttribute(
+            //     "href",
+            //     "https://activetheory.notion.site/Active-Theory-Privacy-Notice-dc343e6976e24c5e866be0ee64bf99eb"
+            //   ),
+            link.setAttribute("target", "_blank"),
+            (link.style.marginLeft = "0"),
+            elem.appendChild(link),
+            (text.textContent = ""),
+            (text.progress = 0.95);
           let duration = Math.clamp(172, 500, 1500),
             setNodeText = (_) => {
               let substr = disclaimer.slice(0, 61 * (1 - text.progress));
