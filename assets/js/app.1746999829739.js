@@ -51462,7 +51462,7 @@ Class(function GLUIStage() {
     Inherit(this, Component);
     const _this = this,
       BACKEND_URL =
-        "https://backend-dot-activetheory-v6.uc.r.appspot.com/api/assistant";
+        "https://originstheory-backend.vercel.app/api/assistant";
     var _thread_id = "",
       _slug = "",
       _project = "";
