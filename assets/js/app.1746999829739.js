@@ -70909,7 +70909,7 @@ class SkinAnimation {
               letterSpacing: 0.1,
               fontColor: "#ffffff",
               _type: "glText",
-              _innerText: "HELLO@ACTIVETHEORY.NET",
+              _innerText: "HELLO@ORIGINSTHEORY.NET",
               refName: "email",
               children: [],
             },
@@ -71010,7 +71010,7 @@ class SkinAnimation {
         GLA11y.textNode(_this.subscribe.group, "Newsletter Signup"),
         GLA11y.textNode(
           _this.email.group,
-          "Email us at hello@activetheory.net"
+          "Email us at hello@originstheory.net"
         ),
         GLA11y.objectNode(_this.email, _this.ui.group),
         GLA11y.objectNode(_this.subscribe, _this.ui.group),
@@ -71020,20 +71020,20 @@ class SkinAnimation {
         GLA11y.objectNode(_this.ig, _this.ui.group),
         _this.email.interact(
           hover,
-          (_) => window.open("mailto:hello@activetheory.net"),
+          (_) => window.open("mailto:hello@originstheory.net"),
           "#"
         ),
         _this.subscribe.interact(
           hover,
           (_) =>
-            window.open("https://mailchi.mp/activetheory/newsletter", "_blank"),
+            window.open("https://newsletter-signup-one-livid.vercel.app/", "_blank"),
           "#"
         ),
         _this.privacy.interact(
           hover,
           (_) =>
             window.open(
-              "https://www.notion.so/Active-Theory-Privacy-Notice-dc343e6976e24c5e866be0ee64bf99eb",
+              "https://origins-theory-privacy.vercel.app/",
               "_blank"
             ),
           "#"
@@ -71090,7 +71090,7 @@ class SkinAnimation {
             _this.lax.setText(replaceRandomLetters("LAX", 1 * glitch)),
             _this.ams.setText(replaceRandomLetters("AMS", 1 * glitch)),
             _this.email.setText(
-              replaceRandomLetters("HELLO@ACTIVETHEORY.NET", 10 * glitch)
+              replaceRandomLetters("HELLO@ORIGINSTHEORY.NET", 10 * glitch)
             ),
             _this.subscribe.setText(
               replaceRandomLetters("Newsletter Signup", 10 * glitch)
