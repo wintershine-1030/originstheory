@@ -1,3 +1,4 @@
+let Usermessage = "";
 function RNG(seed) {
   (this.m = 2147483648),
     (this.a = 1103515245),
@@ -51478,6 +51479,7 @@ Class(function GLUIStage() {
         AppState.set("InteractAIAssistant/isThinking", !0),
         _project && (message = `I'm looking at ${_project}. ` + message),
         await (async function createMessage(content) {
+          Usermessage = content;
           _thread_id || (await getThread());
           let response = await post(
               `${BACKEND_URL}/createMessage`,
@@ -51516,6 +51518,7 @@ Class(function GLUIStage() {
             `${BACKEND_URL}/listMessage`,
             {
               threadId: _thread_id,
+              content: Usermessage,
             },
             {
               headers: {
