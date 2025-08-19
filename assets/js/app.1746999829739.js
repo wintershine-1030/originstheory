@@ -71029,7 +71029,7 @@ class SkinAnimation {
         _this.subscribe.interact(
           hover,
           (_) =>
-            window.open("https://newsletter-signup-one-livid.vercel.app/", "_blank"),
+            window.open("https://newsletter-signup-five.vercel.app/", "_blank"),
           "#"
         ),
         _this.privacy.interact(
