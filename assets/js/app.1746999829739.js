@@ -71018,9 +71018,9 @@ class SkinAnimation {
         GLA11y.objectNode(_this.email, _this.ui.group),
         GLA11y.objectNode(_this.subscribe, _this.ui.group),
         GLA11y.objectNode(_this.privacy, _this.ui.group),
-        GLA11y.objectNode(_this.in, _this.ui.group),
+        // GLA11y.objectNode(_this.in, _this.ui.group),
         GLA11y.objectNode(_this.tw, _this.ui.group),
-        GLA11y.objectNode(_this.ig, _this.ui.group),
+        // GLA11y.objectNode(_this.ig, _this.ui.group),
         _this.email.interact(
           hover,
           (_) => window.open("mailto:hello@originstheory.net"),
@@ -71041,23 +71041,23 @@ class SkinAnimation {
             ),
           "#"
         ),
-        _this.ig.interact(
-          hover,
-          (_) =>
-            window.open("https://www.instagram.com/activetheory", "_blank"),
-          "#",
-          "Instagram"
-        ),
-        _this.in.interact(
-          hover,
-          (_) =>
-            window.open(
-              "https://www.linkedin.com/company/active-theory/",
-              "_blank"
-            ),
-          "#",
-          "Linked in"
-        ),
+        // _this.ig.interact(
+        //   hover,
+        //   (_) =>
+        //     window.open("https://www.instagram.com/activetheory", "_blank"),
+        //   "#",
+        //   "Instagram"
+        // ),
+        // _this.in.interact(
+        //   hover,
+        //   (_) =>
+        //     window.open(
+        //       "https://www.linkedin.com/company/active-theory/",
+        //       "_blank"
+        //     ),
+        //   "#",
+        //   "Linked in"
+        // ),
         _this.tw.interact(
           hover,
           (_) => window.open("https://twitter.com/active_theory", "_blank"),
