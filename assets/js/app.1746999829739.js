@@ -70930,7 +70930,7 @@ class SkinAnimation {
             {
               width: 34,
               height: 34,
-              bg: "assets/images/ui/ig.png",
+              // bg: "assets/images/ui/ig.png",
               _type: "glObject",
               refName: "ig",
               children: [],
@@ -70938,7 +70938,7 @@ class SkinAnimation {
             {
               width: 30,
               height: 30,
-              bg: "assets/images/ui/in.png",
+              // bg: "assets/images/ui/in.png",
               _type: "glObject",
               refName: "in",
               children: [],
